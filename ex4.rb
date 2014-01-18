@@ -20,4 +20,13 @@ puts "We need to put about #{average_passengers_per_car} in each car."
 # this error is raised due to the the addition of the extra underscore in
 # the variable carpool_capacity
 
+# Using 4.0 instead of 4
+# Here 4.0 is a floating number and 4 is a interger.
+# Floating numbers allows us to work with fractional numbers. 
+# Note: as long as 1 of the numbers is a floating point
+# then the whole equation will be calculated as if all 
+# numbers were floating
 
+# Note: the '=' sign in Ruby equates to an 
+# assignment operator. Thus 'cars = 100' reverts to 
+# cars in this example is assigned to the value of 100
