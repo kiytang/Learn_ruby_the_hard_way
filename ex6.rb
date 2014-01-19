@@ -26,3 +26,14 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 puts w + e
+
+#######EXTRA CREDIT######## 
+
+#Find all the places where a string is put inside a string:
+# binary, do_not, a and y
+# Note: although '10' and false are not string literals, the fact that they
+# are placed into interpolation #{} means that they can be treated as string
+
+# when 2 string are concatenated they are simply palced
+# togetehr side by side thus the resulatnt string is the 
+# combinationof the 2 separate strings.
