@@ -3,6 +3,7 @@
 #Here's some new strange stuff, remember type it exactly.
 
 days = "Mon Tue Wed Thur Fri Sat Sun"
+#the backslash '\n' puts in a new line character into the string.
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 puts "Here are the days: ", days
