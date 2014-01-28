@@ -18,3 +18,5 @@ file_again = STDIN.gets.chomp()
 txt_again = File.open(file_again)
 # user the new var txt_again and another read command to read the file again
 puts txt_again.read()
+
+####ARGV is used to feed variables to the script from the cml, or other scripts#####
