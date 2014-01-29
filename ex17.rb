@@ -1,5 +1,6 @@
-#Exercise 17 More Files
-from_file, to_file = ARGV 
+#Exercise 17: More Files
+from_file, to_file = ARGV
+# $0 contains the name of the script being executed.
 script = $0
 
 puts "Copying from #{from_file} to #{to_file}"
@@ -19,5 +20,7 @@ output.write(indata)
 
 puts "Alright, all done."
 
+# good practice to close files- leaving files open can lead 
+# to memory leaks and too many open file pointers
 output.close()
 input.close()
