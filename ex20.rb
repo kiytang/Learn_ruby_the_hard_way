@@ -28,12 +28,12 @@ puts "Now let's rewind, kind of like tapes."
 rewind(current_file)
 
 puts "Let's print three lines:"
-
+# variable +=1 equivalent to variable = variable + 1
 current_line = 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
