@@ -17,15 +17,17 @@ True and True True
 False and True  False
 False and False False
 
-NOT OR  True?
+NOT OR  True?  # complete content in brackets 1st, then aplt not
 not (True or False) False
 not (True or True)  False
 not (False or True) False
 not (False or False)  True
 
 NOT AND True?
-not (True and False)  True
-not (True and True) False
+# from the 'and' statement above we know that the content in the 
+# brackets below restuls in (False), thus not(false) =>True
+not (True and False)  True     
+not (True and True)   False
 not (False and True)  True
 not (False and False) True
 
